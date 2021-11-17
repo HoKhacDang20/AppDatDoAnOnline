@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387025812146",
+    "project_id": "appdatdoanonline",
+    "storage_bucket": "appdatdoanonline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387025812146:android:f25683da24b78eb9dea7ab",
+        "android_client_info": {
+          "package_name": "com.example.datdoanonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387025812146-c1j9n5jqca28en6vr3fbqden6c4jbqid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVOWpsMoMNEuc6T0ADoG2SyZcqPqRQKdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387025812146-c1j9n5jqca28en6vr3fbqden6c4jbqid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
