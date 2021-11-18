@@ -7,6 +7,7 @@ public class DonHang {
     private ArrayList<CartItems> cartItemsList;
     private int iTinhTrang = 0;
     private boolean Check = false;
+    private String oke;
 
     public DonHang() {
     }
