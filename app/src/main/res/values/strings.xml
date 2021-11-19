@@ -1,3 +1,101 @@
 <resources>
-    <string name="app_name">AppDatDoAnOnline</string>
+    <string name="app_name">AloShip</string>
+    <string name="login_text">Đăng nhập</string>
+    <string name="user_input_hint">User name</string>
+    <string name="pass_input_hint">Mật khẩu</string>
+    <string name="registry_question">Bạn chưa có tài khoản?</string>
+    <string name="registry_link">Đăng ký ngay</string>
+    <string name="registry_label">Đăng ký tài khoản</string>
+    <string name="edit_label">Thông tin tài khoản</string>
+    <string name="user_password_change">Đổi mật khẩu</string>
+    <string name="registry_cancel">Bạn đã có tài khoản?</string>
+    <string name="registry_return">Đăng nhập ngay</string>
+    <string name="registry_btn">Đăng ký</string>
+    <string name="registry_username">User name *</string>
+    <string name="registry_name">Họ tên*</string>
+    <string name="registry_phone">Số điện thoại *</string>
+    <string name="registry_gender">Giới tính: </string>
+    <string name="registry_address">Địa chỉ *</string>
+    <string name="registry_password">Mật khẩu *</string>
+    <string name="user_old_password">Mật khẩu cũ *</string>
+    <string name="user_new_password">Mật khẩu mới *</string>
+    <string name="registry_confirm_pass">Xác nhận mật khẩu</string>
+    <string name="account_info">Thông tin tài khoản</string>
+    <string name="user_order">Đơn hàng</string>
+    <string name="sdt">Số điện thoại: </string>
+    <string name="ho_ten">Họ tên: </string>
+    <string-array name="spn_gender">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+    <string-array name="spn_user">
+        <item>Bếp</item>
+        <item>Shipper</item>
+    </string-array>
+    // Admin:
+    <string name="doanh_thu">Doanh thu: </string>
+    <string name="sdt_user">SDT</string>
+    <string name="quan_li_don_hang">Quản lí đơn hàng</string>
+    <string name="dsMonAn">Danh sách món ăn</string>
+    <string name="Account">Welcome Admin: </string>
+    <string name="Ten">Admin</string>
+    <string name="btnManagmentFood">Quản lý món ăn</string>
+    <string name="btnManagmentOder">Quản lý đơn hàng</string>
+    <string name="btnLogout">Đăng xuất tài khoản</string>
+    <string name="btnManagmentEmployee">Quản lý nhân viên</string>
+    <string name="dang_ky_tai_khoan_nhan_vien">Đăng ký nhân viên</string>
+    <string name="admin_home">Home</string>
+    <string name="admin_don_hang_confirm">Xác nhận</string>
+    <string name="admin_don_hang_cancel">Hủy đơn</string>
+    <string name="user_name">Họ tên</string>
+    //Kitchen
+    <string name="danh_sach_don_hang">Danh sách đơn hàng</string>
+    <string name="danh_sach_don_dang_giao">Danh sách đơn đang giao</string>
+    <string name="dau_bep">Welcome Chef: </string>
+    <string name="delivery">Giao hàng</string>
+    <string name="guest_sdt">SDT</string>
+    <string name="guest_dia_chi">Địa chỉ</string>
+    //Shipper
+    <string name="shipper">Welcome Shipper: </string>
+    <string name="shipper_logout">Đăng xuất</string>
+    <string name="don_dang_giao">Đơn hàng giao</string>
+    <string name="guest_name">Họ tên</string>
+    <string name="packet_price">Giá gói hàng</string>
+    <string name="don_hang_can_giao">Đơn hàng cần giao</string>
+    //DonHang
+    <string name="ma_don_hand">Mã đơn hàng</string>
+    //FoodManagment:
+    <string name="Add">Thêm</string>
+    <string name="Remove">Xóa</string>
+    <string name="Edit">Sửa</string>
+    <string name="Back">Back</string>
+    <string name="Save">Save</string>
+    <string name="NameFood">Tên món ăn: </string>
+    <string name="foodDescribe">Mô tả món: </string>
+    <string name="foodPrice">Giá món ăn: </string>
+    <string name="AddChoose">Add image </string>
+    <string name="user_cart">Giỏ hàng</string>
+    <string name="user_food_all">Tất cả</string>
+    <string name="user_food_fried">Món chiên</string>
+    <string name="user_fast_food">Thức ăn nhanh</string>
+    <string name="user_drink">Nước uống</string>
+    <string name="add_to_cart">Thêm vào giỏ</string>
+    <string name="cart_order">Đặt hàng</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="cart_item_delete">Xóa</string>
+    <string name="user_don_hang">Đơn hàng</string>
+    <string name="ma_don_hang">Mã đơn hàng</string>
+    <string name="so_luong">Số lượng</string>
+    <string name="tong_tien">Tổng tiền: </string>
+    <string name="tinh_trang">Tình trạng</string>
+    <string name="user_type">Loại user: </string>
+    <string name="user_name_admin">User Name: </string>
+    <string name="employee_list">Danh sách nhân viên</string>
+    //Hay:
+    <string name="foodType">Loại món ăn: </string>
+    <string-array name="spnType">
+        <item>Món chiên</item>
+        <item>Thức ăn nhanh</item>
+        <item>Nước uống</item>
+    </string-array>
 </resources>
