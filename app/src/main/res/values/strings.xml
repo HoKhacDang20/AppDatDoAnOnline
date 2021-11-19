@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">AppDatDoAnOnline</string>
+    <string name="user_password_change">Đổi mật khẩu</string>
+    <string name="account_info">Thông tin tài khoản</string>
+    // Admin:
+    <string name="doanh_thu">Doanh thu: </string>
+    <string name="sdt_user">SDT</string>
+    <string name="quan_li_don_hang">Quản lí đơn hàng</string>
+    <string name="dsMonAn">Danh sách món ăn</string>
+    <string name="Account">Welcome Admin: </string>
+    <string name="Ten">Admin</string>
+    <string name="btnManagmentFood">Quản lý món ăn</string>
+    <string name="btnManagmentOder">Quản lý đơn hàng</string>
+    <string name="btnLogout">Đăng xuất tài khoản</string>
+    <string name="btnManagmentEmployee">Quản lý nhân viên</string>
+    <string name="dang_ky_tai_khoan_nhan_vien">Đăng ký nhân viên</string>
+    <string name="admin_home">Home</string>
+    <string name="admin_don_hang_confirm">Xác nhận</string>
+    <string name="admin_don_hang_cancel">Hủy đơn</string>
+    <string name="user_name">Họ tên</string>
 </resources>
