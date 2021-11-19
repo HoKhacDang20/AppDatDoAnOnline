@@ -8,6 +8,7 @@
     android:orientation="horizontal"
     android:background="@android:color/holo_green_light"
     android:padding="5dp">
+
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
