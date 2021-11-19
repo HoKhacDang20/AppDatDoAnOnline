@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppDatDoAnOnline">
+
+
+        <activity android:name=".CartActivity" />
+        <activity android:name=".FoodManagmentActivity" />
+        <activity android:name=".AdminMainActivity" />
+
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
