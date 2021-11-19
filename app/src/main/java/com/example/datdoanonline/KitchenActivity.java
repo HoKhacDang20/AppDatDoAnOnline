@@ -39,7 +39,7 @@ public class KitchenActivity extends AppCompatActivity {
     private DonHang donHang;
     private ArrayList<BlackList> blackListArrayList;
     private KitchenOrderAdapter kitchenOrderAdapter;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
