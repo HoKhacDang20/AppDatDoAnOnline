@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_orange_light"
+    android:weightSum="5.5"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:text="@string/sdt"/>
+        <TextView
+            android:id="@+id/txtSDT"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_weight="1"
+            android:text="@string/ho_ten"/>
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/tong_tien"/>
+        <TextView
+            android:id="@+id/txtTongTien"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_weight="1.5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:text="@string/tinh_trang"/>
+        <TextView
+            android:id="@+id/txtTinhTrang"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5">
+
+        <CheckBox
+            android:id="@+id/cbDonHang"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
