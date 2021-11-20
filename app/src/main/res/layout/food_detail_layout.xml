@@ -77,13 +77,13 @@
                     android:orientation="vertical"
                     android:layout_weight="1">
 
-                    <EditText
+                    <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
                         android:id="@+id/elegantButton"
                         android:layout_width="match_parent"
                         android:layout_height="30dp"
 
                         android:layout_marginTop="50dp"
-                     ></EditText>
+                     ></com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
                     <Button
                         android:id="@+id/btnAddToCart"
                         android:layout_width="match_parent"
