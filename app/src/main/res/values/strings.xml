@@ -94,7 +94,10 @@
     //Hay:
     <string name="foodType">Loại món ăn: </string>
     <string-array name="spnType">
+        <item>Lẩu</item>
         <item>Món chiên</item>
+        <item>Đồ mặn</item>
+        <item>Đồ xào</item>
         <item>Thức ăn nhanh</item>
         <item>Nước uống</item>
     </string-array>

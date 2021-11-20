@@ -38,7 +38,7 @@ public class CookingActivity extends AppCompatActivity {
     private ArrayList<CartItems> cartItemsArrayList;
     private String sIDDonHang, sItemName;
     private KitchenCookAdapter kitchenCookAdapter;
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
