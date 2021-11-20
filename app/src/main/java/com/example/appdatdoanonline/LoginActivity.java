@@ -67,20 +67,17 @@ public class LoginActivity extends AppCompatActivity {
         return loginResult;
     }
 
-
     @Override
     protected void onResume() {
         super.onResume();
         edtPass.setText("");
         list.clear();
         mDatabase = FirebaseDatabase.getInstance().getReference();
-
         mDatabase.child("User").addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
                 UserData user = snapshot.getValue(UserData.class);
                 list.add(user);
-
             }
 
             @Override
@@ -103,15 +100,12 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
-
         btnLogin.setOnClickListener(LoginClick);
-
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-
     }
 
     View.OnClickListener LoginClick = new View.OnClickListener() {
