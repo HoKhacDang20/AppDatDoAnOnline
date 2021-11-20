@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetailActivity"
+    android:background="@mipmap/western_food_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:weightSum="8"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/foodIMG"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:layout_margin="10dp"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/NameFood"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginTop="30dp"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:id="@+id/txtFoodName"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_height="50dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="@string/foodPrice"
+                        android:textColor="@color/white"
+                        android:textStyle="italic"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:id="@+id/txtFoodPrice"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:layout_height="50dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/elegantButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+
+                        android:layout_marginTop="50dp"
+                     ></EditText>
+                    <Button
+                        android:id="@+id/btnAddToCart"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:text="@string/add_to_cart"
+                        android:textAllCaps="false"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/login_button"></Button>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtFoodDescription"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_weight="1">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btnBack"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:background="@drawable/login_button"
+                android:text="@string/Back"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
