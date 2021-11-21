@@ -79,6 +79,7 @@
     <string name="user_food_fried">Món chiên</string>
     <string name="user_fast_food">Thức ăn nhanh</string>
     <string name="user_drink">Nước uống</string>
+    <string name="user_khac">Khác</string>
     <string name="add_to_cart">Thêm vào giỏ</string>
     <string name="cart_order">Đặt hàng</string>
     <string name="cart">Giỏ hàng</string>
