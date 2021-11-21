@@ -115,7 +115,7 @@ public class KitchenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        
+
         btnPasswordChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
