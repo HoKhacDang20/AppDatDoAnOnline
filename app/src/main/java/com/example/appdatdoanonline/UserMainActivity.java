@@ -15,9 +15,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.datdoanonline.adapter.FoodAdapter;
-import com.example.datdoanonline.data_models.MonAn;
-import com.example.datdoanonline.data_models.UserData;
+import com.example.appdatdoanonline.R;
+import com.example.appdatdoanonline.adapter.FoodAdapter;
+import com.example.appdatdoanonline.data_model.MonAn;
+import com.example.appdatdoanonline.data_model.UserData;
+
+
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,7 +33,8 @@ import com.google.firebase.storage.StorageReference;
 import java.util.ArrayList;
 
 public class UserMainActivity extends AppCompatActivity {
-    private Intent intent = LoginActivity.intent;
+    //private Intent intent = LoginActivity.intent;
+    private  Intent intent =new Intent();
     private Button btnEditAccount, btnLogout, btnPasswordChange, btnAllFood, btnFriedFood, btnFastFood, btnDrinks, btnCart, btnOrder;
     private TextView txtUserName;
     private FirebaseDatabase firebaseDatabase;
@@ -90,7 +95,7 @@ public class UserMainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         switch (which){
                             case DialogInterface.BUTTON_POSITIVE:
-                                intent = new Intent(UserMainActivity.this, LoginActivity.class);
+                              //  intent = new Intent(UserMainActivity.this, LoginActivity.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                                 startActivity(intent);
                                 break;
@@ -108,7 +113,7 @@ public class UserMainActivity extends AppCompatActivity {
         btnEditAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(UserMainActivity.this, EditAccountActivity.class);
+               // intent = new Intent(UserMainActivity.this, EditAccountActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 intent.putExtra("UserName", sUserName);
                 intent.putExtra("FullName", txtUserName.getText().toString());
@@ -118,7 +123,7 @@ public class UserMainActivity extends AppCompatActivity {
         btnOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(UserMainActivity.this,UserDonHangActivity.class);
+             //   intent = new Intent(UserMainActivity.this,UserDonHangActivity.class);
                 intent.putExtra("UserName", sUserName);
                 startActivity(intent);
             }
@@ -126,7 +131,7 @@ public class UserMainActivity extends AppCompatActivity {
         btnCart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(UserMainActivity.this,CartActivity.class);
+                //intent = new Intent(UserMainActivity.this,CartActivity.class);
                 intent.putExtra("UserName", sUserName);
                 startActivity(intent);
             }
@@ -134,7 +139,7 @@ public class UserMainActivity extends AppCompatActivity {
         btnPasswordChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                intent = new Intent(UserMainActivity.this, PasswordChangeActivity.class);
+              //  intent = new Intent(UserMainActivity.this, PasswordChangeActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                 intent.putExtra("UserName", sUserName);
                 startActivity(intent);
@@ -198,7 +203,7 @@ public class UserMainActivity extends AppCompatActivity {
         foodGridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(view.getContext(), FoodDetailActivity.class);
+               // Intent intent = new Intent(view.getContext(), FoodDetailActivity.class);
                 intent.putExtra("FoodID",lstMonAn.get(position).getImage());
                 intent.putExtra("UserName",sUserName);
                 intent.putExtra("FoodPrice",lstMonAn.get(position).getFoodPrice());
