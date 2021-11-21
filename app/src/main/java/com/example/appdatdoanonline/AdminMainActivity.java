@@ -65,15 +65,6 @@ public class AdminMainActivity extends AppCompatActivity {
             }
         });
 
-        btnManagmentEmployee.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent = new Intent(AdminMainActivity.this, EmployeeManagmentActivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                startActivity(intent);
-            }
-        });
-
         btnLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -97,24 +88,6 @@ public class AdminMainActivity extends AppCompatActivity {
             }
         });
 
-        btnAccountEdit.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent = new Intent(AdminMainActivity.this, AdminAccountEdit.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                intent.putExtra("UserName", sUserName);
-                startActivity(intent);
-            }
-        });
-        btnPasswordChange.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                intent = new Intent(AdminMainActivity.this, AdminPasswordChange.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
-                intent.putExtra("UserName", sUserName);
-                startActivity(intent);
-            }
-        });
     }
 
     @Override

@@ -9,13 +9,19 @@
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2890625" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/drawable/layout_bg.xml" value="0.2890625" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/drawable/login_button.xml" value="0.2846153846153846" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/admin_donhang.xml" value="0.2682291666666667" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/admin_donhang_item.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/admin_donhang_item_layout.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/admin_main_layout.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/admin_quanly_donhang.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/cart_item_layout.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/cart_items_layout.xml" value="0.18" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/cart_layout.xml" value="0.18" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/food_detail_layout.xml" value="0.13958333333333334" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/foodmanagement_layout.xml" value="0.25" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/listview_foodmanagement_layout.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/listview_foodmanagment_layout.xml" value="0.1" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/layout/login_layout.xml" value="0.2" />
         <entry key="..\:/Users/MY PC/AndroidStudioProjects/AppDatDoAnOnline/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2846153846153846" />
       </map>
