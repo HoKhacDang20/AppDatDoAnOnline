@@ -62,7 +62,6 @@ public class CookingActivity extends AppCompatActivity {
         donHangArrayList.clear();
         if(getIntent().getExtras() != null){
             intent = getIntent();
-//            sIDDonHang = "-MDQM6cOmhdA2_ty0o22";
             sIDDonHang = intent.getExtras().getString("IDDonHang");
             databaseReference.child("Cook").addChildEventListener(new ChildEventListener() {
                 @Override
@@ -115,6 +114,7 @@ public class CookingActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
         btnDelivery.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,6 +132,7 @@ public class CookingActivity extends AppCompatActivity {
             }
         });
     }
+
     public void DonHangLoad(){
         for(final DonHang donHang : donHangArrayList){
             if(donHang.getsIDDonHang().equals(sIDDonHang)){

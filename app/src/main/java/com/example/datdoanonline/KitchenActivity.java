@@ -78,6 +78,7 @@ public class KitchenActivity extends AppCompatActivity {
                 builder.setMessage("Bạn muốn đăng xuất?").setNegativeButton("No",dialogClick).setPositiveButton("Yes",dialogClick).show();
             }
         });
+
         orderGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -104,6 +105,7 @@ public class KitchenActivity extends AppCompatActivity {
                 builder.setMessage("Tiến hành nấu đơn hàng của khách " + donHangArrayList.get(position).getsHoTen() + "?").setNegativeButton("No",dialogClick).setPositiveButton("Yes",dialogClick).show();
             }
         });
+
         btnAccountEdit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -113,6 +115,7 @@ public class KitchenActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        
         btnPasswordChange.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
